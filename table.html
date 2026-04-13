@@ -1,12 +1,16 @@
 <Doctype! HTML>
 <HTML>
 <head>
-<h1>hello bacchooo</h1>
+
 <body>
-<table border="1" cellpadding="10" cellspacing="0">
-    <caption >Employee details</caption>
+<table border="2" align="center" width="65%" cellpadding="10" bordercolor="blue" borderstyle="solid"  cellspacing="4">
+    
     <thead>
-    <rowspan="4">Employee details</rowsan>    
+        <tr>
+            <th colspan="4">Employee details</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
         <th>empID</th>
         <th>empname</th>
@@ -36,6 +40,15 @@
         <td>HR</td>
         <td>20000</td>
     </tr>
+    <tfoot>
+        <tr>
+            <td colspan="4" align="center">Total number of employees: 3</td>
+        </tr>
+        <tr>
+            <td>About employees</td>
+            <td colspan="3" align="justify">employee 1: The table shows that the first employee has the highest salary. Employee 2: The second employee has a moderate salary. Employee 3: The third employee has the lowest salary.</td>
+        </tr>
+
     </tbody>
 </table>
 
